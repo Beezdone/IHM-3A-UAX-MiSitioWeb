@@ -14,4 +14,4 @@ Ejercicios Tema 4: https://www.figma.com/file/90l8dMIDGuSMQW8nz4nkA8/EjerciciosT
 <br />
 
 Ejercicio Tema 5: https://www.figma.com/file/gXiD9OYgFiKaS6BZ2B5Jgo/EjercicioTema5-Iconos?node-id=0%3A1 
-Puedes encontrar tambien todos los iconos en el archivo que se llama "iconos".  
+<br />Puedes encontrar tambien todos los iconos en el archivo que se llama "iconos".  
