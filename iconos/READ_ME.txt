@@ -4,4 +4,4 @@ These icons are in png format.
 Indeed, I've found these icons in https://www.flaticon.com/ but the .svg are not for free. 
 	=> After the approval of our client, we could pay and use .svg format, but for now, it's only in png format. 
 
-PS: every icons in "EjercicioTema5-Iconos.fig" have an effect called "Inner shadow" (available in figma directly)
+PS: almost every icons in this folder have an effect called "Inner shadow" (available in figma directly). Only our avatars don't have this effect. 
