@@ -1,4 +1,4 @@
-You can find here every icons used in "EjercicioTema5-Iconos.fig" (= the model available with the link in "README.md", part Ejercicio Tema 5).
+You can find here every icons used in "EjercicioTema5-Iconos.fig" (= the model available with the link in "README.md", part "Ejercicio Tema 5").
 
 These icons are in png format. 
 Indeed, I've found these icons in https://www.flaticon.com/ but the .svg are not free. 
