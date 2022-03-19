@@ -1,6 +1,6 @@
 ## Mi sitio web personal
 Este repository va a contener todos los documentos necesarios para el diseño y la creación de mi sitio web personal. 
-Ademas, puedes encontrar otros ejercicios y proyectos sobre SCSS por ejemplo.
+<br />Ademas, puedes encontrar otros ejercicios y proyectos sobre SCSS por ejemplo.
 <br />
 <br />
 <br />
