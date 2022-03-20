@@ -6,7 +6,7 @@ Este repository va a contener todos los documentos necesarios para el diseño y 
 <br />
 ## Correspondancia ejercicios UAX y nombre de los ficheros
 <br />
-===============================Ejercicios de UI/design===============================
+===========Ejercicios de UI/design===========
 <br />
 <br />
 Ejercicios Tema 2: MySitioWeb_SiteMap_v1.0.pdf o "https://www.figma.com/file/wzWkdTGUlubDwHbN4sXPxW/MySitioWeb_SiteMap_v1.0?node-id=0%3A1"
@@ -23,7 +23,7 @@ Ejercicio Tema 5: https://www.figma.com/file/gXiD9OYgFiKaS6BZ2B5Jgo/EjercicioTem
 
 <br />
 <br />
-================================Ejercicios de codigo================================
+===========Ejercicios de codigo===========
 <br />
 <br />
 Ejercicios Tema 7: puedes encontrar todos los ejercicios en el archivo "Ejercicios Tema 7".
