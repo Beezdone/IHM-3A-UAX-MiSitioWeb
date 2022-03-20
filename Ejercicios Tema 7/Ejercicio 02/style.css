@@ -1,0 +1,104 @@
+/*=======================================WELCOME TO CLARA'S BOILERPLATE=======================================*/
+/*You can find here a lot of variables, mixins or elements that I might use in a lot of my personnal SCSS work*/
+/* Variables */
+/*because we like fun websites :D*/
+/* Mixins */
+.box_perso {
+  /*Example of personalised box*/
+  /*circle is a bool which tell us if we want a cube or a sphere*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #ff4040;
+  border-radius: 50%;
+}
+
+/* Majors parts of the file */
+body {
+  font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
+  color: black;
+}
+
+h1 {
+  text-shadow: 2px 2px #00000044;
+}
+
+* {
+  background: #fbaac3;
+}
+
+/* Elements: boxes */
+.box_width {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 100px;
+  background: #41c9ff;
+}
+
+.box_height {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 300px;
+  background: #84f893;
+}
+
+.box_square {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #f3dd63;
+}
+/*# sourceMappingURL=style.css.map */

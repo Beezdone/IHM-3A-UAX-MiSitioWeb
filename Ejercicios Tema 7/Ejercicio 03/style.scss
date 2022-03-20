@@ -1,0 +1,61 @@
+$green_color: #4bcf9e;
+$background_color: #ebeef5;
+$subtitles_color: #435b75;
+$color_bloc_1: #6e54cc;
+$color_bloc_2: #f16c13;
+$color_bloc_3: #23a484;
+$color_bloc_4: #ff5252;
+$color_bloc_5: #9b45ce;
+$color_bloc_security: #435b75;
+
+$font_menu: Helvetica Neue,Helvetica,Arial,sans-serif;
+$font_subtitles: Franklin Gothic Medium; /*This is not exactly the same font as in the original website but I do not find the same font */
+$font_body: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+body{
+    font-family: $font_body;
+    background-color: $background_color;
+}
+
+h1{
+    margin-left: 140px;
+    font-family: $font_subtitles;
+    color: $subtitles_color;
+}
+
+.menu{
+    margin: auto;
+    width: 80%;
+    background-color: $green_color;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 650px;
+}
+
+.img{
+    margin: auto;
+}
+
+.bloc_scholarship{
+    width: 250px;
+    height: 50px;
+    margin-left: 900px;
+    background-color: $color_bloc_3;
+    color: white;
+}
+.bloc_security{
+    width: 250px;
+    height: 50px;
+    margin-left: 900px;
+    background-color: $color_bloc_security;
+    color: white;
+}
+.bloc_CVEC{
+    width: 250px;
+    height: 50px;
+    margin-left: 900px;
+    background-color: $color_bloc_2;
+    color: white;
+}

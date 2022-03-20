@@ -1,0 +1,59 @@
+/* Variables */
+$color-txt-base: salmon;
+$font-stack: cursive; 
+$txt-indent: 10%;
+
+.item{
+    color:$color-txt-base;
+    font-family:$font-stack;
+    text-indent:$txt-indent;
+}
+
+/* Nesting */
+.contNav{
+    background-color: aquamarine;
+
+    .nav{
+        width: 150px;
+        background: yellow;
+
+        li{
+            font-size: 45px;
+
+            &:first-child{
+                color: black;
+            }
+
+            &:last-child{
+                color:white;
+            }
+
+        }
+
+    }
+
+}
+
+/* Mixin */
+@mixin center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    @include center;
+    width: 300px;
+    height: 130px;
+    background: rgb(72, 167, 255);
+}
+.buton{
+    @include center;
+    width: 200px;
+    height: 100px;
+    background: rgb(153, 0, 255);
+}
+
+
+/* Partials */
+@import "partials" 

@@ -1,0 +1,51 @@
+/*This is not exactly the same font as in the original website but I do not find the same font */
+body {
+  font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #ebeef5;
+}
+
+h1 {
+  margin-left: 140px;
+  font-family: Franklin Gothic Medium;
+  color: #435b75;
+}
+
+.menu {
+  margin: auto;
+  width: 80%;
+  background-color: #4bcf9e;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 650px;
+}
+
+.img {
+  margin: auto;
+}
+
+.bloc_scholarship {
+  width: 250px;
+  height: 50px;
+  margin-left: 900px;
+  background-color: #23a484;
+  color: white;
+}
+
+.bloc_security {
+  width: 250px;
+  height: 50px;
+  margin-left: 900px;
+  background-color: #435b75;
+  color: white;
+}
+
+.bloc_CVEC {
+  width: 250px;
+  height: 50px;
+  margin-left: 900px;
+  background-color: #f16c13;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+/*=======================================WELCOME TO CLARA'S BOILERPLATE=======================================*/
+/*You can find here a lot of variables, mixins or elements that I might use in a lot of my personnal SCSS work*/
+
+/* Variables */
+$MyPastelBlue: rgb(65, 201, 255);
+$MyPastelGreen: rgb(132, 248, 147);
+$MyPastelYellow: rgb(243, 221, 99);
+$MyPastelPink: rgb(251, 170, 195);
+$MyPastelPurple: rgb(217, 176, 255);
+$MyRed: rgb(255, 64, 64);
+$funfont: cursive; /*because we like fun websites :D*/
+$seriousfont: "Gill Sans", sans-serif;
+
+/* Mixins */
+@mixin center_element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin center_page{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin box($w, $h, $color, $circle){ /*circle is a bool which tell us if we want a cube or a sphere*/
+    @include center_page;
+    @include center_element;
+    width: $w;
+    height: $h;
+    background: $color;
+
+    @if $circle == 1{
+        border-radius: 50%;
+    }
+
+}
+
+.box_perso{ /*Example of personalised box*/
+    @include box(50px,50px,$MyRed, 1);
+}
+
+/* Majors parts of the file */
+body{
+    font-size: 20px;
+    font-family: $seriousfont;
+    color:black;    
+}
+
+h1{
+    text-shadow: 2px 2px #00000044;
+}
+
+*{
+    background: $MyPastelPink;
+}
+
+/* Elements: boxes */
+.box_width{
+    @include center_page;
+    @include center_element;
+    width: 300px;
+    height: 100px;
+    background: $MyPastelBlue;
+}
+
+.box_height{
+    @include center_page;
+    @include center_element;
+    width: 100px;
+    height: 300px;
+    background: $MyPastelGreen;
+}
+
+.box_square{
+    @include center_page;
+    @include center_element;
+    width: 100px;
+    height: 100px;
+    background: $MyPastelYellow;
+}
+
