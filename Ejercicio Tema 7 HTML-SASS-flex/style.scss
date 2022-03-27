@@ -1,0 +1,127 @@
+.site-name {
+    color: #5b6770;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+  
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+
+.img{
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: auto;
+}
+
+.element{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+* {
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*for the three principal sections*/ 
+.flex-item-left {
+  background-color: #0401be7c;
+  padding: 10px;
+  flex: 33%;
+}
+
+.flex-item-middle {
+  background-color: rgba(206, 0, 0, 0.425);
+  padding: 10px;
+  flex: 33%;
+}
+
+.flex-item-right {
+  background-color: rgba(15, 119, 46, 0.452);
+  padding: 10px;
+  flex: 33%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 700px) {
+  .flex-item-right, .flex-item-middle, .flex-item-left, .flex-head {
+    flex: 100%;
+  }
+}
+
+/*for the buttons in the blue section*/
+.flex-item2 {
+  background-color: rgb(6, 4, 160);
+  color: white;
+  flex: 50%;
+}
+
+/*for the button in the red section */
+.flex-item3 {
+  background-color: rgb(160, 4, 4);
+  color: white;
+  flex: 50%;
+}
+/*for the button in the green section */
+.flex-item4 {
+  background-color: rgb(2, 92, 24);
+  color: white;
+  flex: 50%;
+}
+
+
+/*for adding flexibility to the header*/
+.flex-head{
+  flex: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
