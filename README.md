@@ -30,3 +30,7 @@ Ejercicios Tema 7: puedes encontrar todos los ejercicios en el archivo "Ejercici
 <br /> - El primer ejercicio se trata de entender y utilizar el scss
 <br /> - El segundo ejercicio se trata de hacer un "boilerplate" en scss 
 <br /> - El ultimo ejercicio se trata de copiar un sitio web que existe ya
+
+<br />
+<br />
+Ejercicios Tema 7 (el verdadero): puedes encontrar todos los recursos en el archivo "Ejercicio Tema 7 HTML-SASS-flex".
